@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Eddy McGarrell",
+      "email": "emcgarrell0@nymag.com",
+      "senha": "suspendisse"
+    },
+    {
+      "nome": "Guilherme Rocha Bianchini",
+      "email": "guirochabianchini@gmail.com",
+      "senha": "1223",
+      "id": 2
+    },
+    {
+      "nome": "Alexandre Carlos de Jesus",
+      "email": "alecarlos@fiap.com.br",
+      "senha": "ale12fiap",
+      "id": 3
+    }
+  ]
+}
