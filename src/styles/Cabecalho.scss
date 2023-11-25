@@ -1,0 +1,31 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    align-items: center;
+    color: white;
+    padding: 1.5em;
+
+    .btnLogout {
+        background-color: transparent;
+        font-size: 1.5em;
+        margin-right: 2em;
+        color: white;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            color: #a71a1a;
+        }
+    }
+
+    .BoasVindas {
+        text-align: left;
+
+        p {
+            margin: 0;
+            font-weight: bold;
+        }
+    }
+}
