@@ -1,0 +1,108 @@
+@import "./_variaveis";
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh;
+    background: $cor-fundo;
+    margin: 0 auto; 
+    @media (max-width: $breakpoint-mobile) {
+        flex-direction: column;
+        width: 100%; 
+    }
+}
+
+
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    grid-auto-flow: dense;
+    margin: $margin-padrao 10em;
+
+    @media (max-width: $breakpoint-mobile) {
+        margin: $margin-padrao;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 320px) {
+        margin: $margin-padrao 1em; 
+    }
+}
+
+.Conteudo {
+    grid-column: span 2;
+    grid-row: span 4;
+
+    @media (max-width: $breakpoint-mobile) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+        }
+
+        padding-left: 0;
+
+        div {
+            text-align: center;
+        }
+    }
+
+    @media (min-width: $breakpoint-mobile) {
+        grid-column: span 2;
+        html {
+            font-size: $tamanho-fonte-padrao;
+        }
+    }
+}
+
+.introducao {
+    grid-column: span 3;
+    grid-row: span 4;
+
+    @media (max-width: $breakpoint-mobile) {
+        grid-column: span 2;
+        p{
+            margin-top: 12em;
+        }
+    }
+
+        }
+
+
+
+
+
+
+.vantagens {
+    grid-column: span 5;
+    grid-row: span 2;
+
+    @media (max-width: $breakpoint-mobile) {
+        grid-column: span 3;
+    }
+}
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+
+    @media (max-width: 320px) {
+        position: absolute;
+
+    }
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
