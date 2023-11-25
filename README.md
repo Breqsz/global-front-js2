@@ -15,7 +15,7 @@ Este guia destina-se às disciplinas de Web-front na GS em 2023.
 - npm i json-server;
   
 
-2 - Para abrir o servidor e o db.json, deve-se digitar no console:
+2 - Para abrir o servidor e o dados.json, deve-se digitar no console:
 
 - npm run dev (para abrir o servidor);
 - npm run usuarios (abrir o arquivo dados.json).
