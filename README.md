@@ -10,9 +10,8 @@ Este guia destina-se às disciplinas de Web-front na GS em 2023.
 - npm install;
 - npm install node-sass;
 - npm install react-icons --save;
-- npm react-favicon --save;
-- npm i react-router-dom;
-- npm i json-server;
+- npm install react-router-dom;
+- npm install json-server;
   
 
 2 - Para abrir o servidor e o dados.json, deve-se digitar no console:
