@@ -1,0 +1,32 @@
+@import "./_variaveis";
+
+#introducao {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+
+    h1 {
+        grid-row: 2;
+        font-size: 2em;
+        margin: $margin-padrao;
+    }
+
+    p {
+        grid-row: 0;
+        margin-right: 500px;
+        font-size: large;
+    }
+
+    .Video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 150px;
+    }
+
+    img {
+        width: 50%;
+        height: 100%;
+    }
+}
