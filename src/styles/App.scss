@@ -1,0 +1,17 @@
+@import "./_variaveis";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fonte-padrao;
+}
+body {
+    background: url('../src/static/background.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100%;
+
+}
